@@ -100,4 +100,5 @@ describe('makeExchange function', () => {
   it('should return amount of trapped water correctly 11', () => {
     assert.deepEqual(makeExchange(-1000), {});
   });
+  
 });
